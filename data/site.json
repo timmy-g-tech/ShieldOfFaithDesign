@@ -1,0 +1,80 @@
+{
+  "name": "Shield of Faith Design",
+  "shopUrl": "https://shieldoffaithdesign.etsy.com",
+  "siteUrl": "",
+  "description": "Stickers, shirts, mugs, and gifts for faith, family, and freedom. A small family shop. Printed on demand and sold on Etsy.",
+  "headline": ["Faith, family,", "and freedom."],
+  "heroText": "Original stickers, shirts, mugs, and gifts from a small family shop. Every piece is printed when you order it, and checkout stays on Etsy.",
+  "trust": [
+    "Printed on demand",
+    "Shipped by our print partner",
+    "Orders and returns on Etsy"
+  ],
+  "socialNote": "Replace each url with the shop profile. These point at the platform home pages until real profiles are added.",
+  "social": [
+    { "name": "Facebook", "url": "https://www.facebook.com/" },
+    { "name": "Instagram", "url": "https://www.instagram.com/" },
+    { "name": "Pinterest", "url": "https://www.pinterest.com/" },
+    { "name": "X", "url": "https://x.com/" },
+    { "name": "TikTok", "url": "https://www.tiktok.com/" }
+  ],
+  "categories": [
+    {
+      "name": "Faith",
+      "summary": "Scripture, crosses, and reminders of the shield of faith."
+    },
+    {
+      "name": "Back the Blue",
+      "summary": "Gifts for officers, deputies, and the families beside them."
+    },
+    {
+      "name": "Patriotic",
+      "summary": "Stars, stripes, and designs that love this country."
+    },
+    {
+      "name": "Second Amendment",
+      "summary": "Designs for the right to keep and bear arms."
+    },
+    {
+      "name": "Family",
+      "summary": "Names, verses, and keepsakes for the people at home."
+    }
+  ],
+  "about": {
+    "eyebrow": "About the shop",
+    "heading": "A small family shop, sharing what we stand for.",
+    "paragraphs": [
+      "Shield of Faith Design is a small family-run shop. We make original artwork about faith, family, and freedom — the things we want on our own shirts, mugs, and walls.",
+      "We draw our own designs. We do not copy official badges, patches, seals, or agency logos.",
+      "You order on Etsy. The piece is printed on demand and shipped by our print partner. Orders and returns are handled through Etsy."
+    ],
+    "facts": [
+      {
+        "title": "Family-run",
+        "text": "A small shop, with artwork we design ourselves."
+      },
+      {
+        "title": "Printed on demand",
+        "text": "Made after you order, then shipped by our print partner."
+      },
+      {
+        "title": "Sold on Etsy",
+        "text": "Checkout, messages, and returns stay on Etsy."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "How are items printed and shipped?",
+      "answer": "Items are printed on demand and shipped by our print partner. They are made after you order, not pulled from a shelf of finished goods. Production usually takes a few business days, and then the print partner ships the package."
+    },
+    {
+      "question": "How do orders and returns work?",
+      "answer": "Orders and returns are handled through Etsy. Add what you want from the shop, check out there, and use Etsy messages if you need help. If something arrives damaged or misprinted, message the shop on Etsy and we will make it right. Because each piece is made to order, we cannot accept a return for a size change or a change of mind."
+    },
+    {
+      "question": "Can you print an official badge, patch, or seal?",
+      "answer": "No. The artwork is original. We do not reproduce official badges, patches, seals, or agency logos. Listings that offer personalization can take a name, a verse, or family wording."
+    }
+  ]
+}

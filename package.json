@@ -1,0 +1,8 @@
+{
+  "name": "shield-of-faith-design",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "preview": "python3 -m http.server 8080 --directory dist"
+  }
+}
