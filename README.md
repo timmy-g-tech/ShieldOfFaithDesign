@@ -129,3 +129,5 @@ The GitHub repository is connected to a Netlify site. Production deploys the `ma
 - Build command: `node scripts/sync-catalog.js && node scripts/build.js`
 - Publish directory: `dist`
 - Functions directory: `netlify/functions`
+
+`PRINTIFY_API_TOKEN` has to be available to the **Deploy Previews** context and the **Builds** scope. The catalog sync runs in the build command. A token scoped only to Production, or only to Functions, leaves the preview on the 10 saved listings.
