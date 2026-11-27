@@ -678,6 +678,12 @@ describe("static build", () => {
     assert.match(page.html, />Black</);
     assert.match(page.html, /\$29\.99/);
     assert.match(page.html, /Also on Etsy/);
+    const nameAt = page.html.indexOf("<h1>");
+    const priceAt = page.html.indexOf('id="product-price"');
+    const orderAt = page.html.indexOf("Add to cart");
+    const copyAt = page.html.indexOf("product-copy");
+    assert.ok(nameAt < priceAt && priceAt < orderAt && orderAt < copyAt);
+    assert.match(page.html.slice(copyAt), /Psalm 91:4/);
   });
 });
 

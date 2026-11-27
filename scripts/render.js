@@ -411,8 +411,8 @@ function productPage(site, product) {
         <p class="eyebrow on-light">${escapeHtml(product.category || "Shop")}</p>
         <h1>${escapeHtml(product.title)}</h1>
         ${shown ? `<p class="price price-large" id="product-price">${escapeHtml(shown)}</p>` : `<p class="price price-large" id="product-price"></p>`}
-        ${description}
         ${buy}
+        ${description}
       </div>
     </div>
     <script id="product-json" type="application/json">${jsonForScript(product)}</script>
