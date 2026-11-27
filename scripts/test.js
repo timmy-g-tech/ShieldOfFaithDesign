@@ -561,6 +561,26 @@ describe("sync script", () => {
     assert.equal(writes[0].products.every((product) => product.variants.length === 0), true);
   });
 
+  it("defaults the shop id to 29744663 when PRINTIFY_SHOP_ID is unset", async () => {
+    let seen = "";
+    const result = await runSync({
+      env: { PRINTIFY_API_TOKEN: "token" },
+      log: silent,
+      write: false,
+      fetchImpl: async (url) => {
+        seen = url;
+        return jsonResponse(200, {
+          current_page: 1,
+          last_page: 1,
+          data: [samplePrintifyProduct()],
+        });
+      },
+    });
+    assert.match(seen, /\/v1\/shops\/29744663\/products\.json/);
+    assert.equal(result.fallback, false);
+    assert.equal(result.catalog.shopId, "29744663");
+  });
+
   it("saves published Printify products when a token is present", async () => {
     const writes = [];
     const result = await runSync({
