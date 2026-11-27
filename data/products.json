@@ -1,0 +1,119 @@
+{
+  "shopUrl": "https://shieldoffaithdesign.etsy.com",
+  "fetchedOn": "2026-11-23",
+  "source": "Public shop RSS at https://www.etsy.com/shop/ShieldOfFaithDesign/rss. The shop HTML page returned HTTP 403 from Etsy bot protection, so titles, prices, and photos were taken from that RSS feed and saved locally.",
+  "heading": "From the shop",
+  "note": "These are the shop's current listings. Open an item for details. Listings without a size or color here can be bought on Etsy.",
+  "products": [
+    {
+      "name": "He Will Cover You Tee",
+      "listingTitle": "He Will Cover You Psalm 91:4 Christian Shirt, Front and Back Tee, Police Blue Line Flag Cross, Be Strong and Courageous Gift",
+      "image": "images/products/he-will-cover-you-tee.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Back the Blue",
+      "price": 29.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Black tee seen from the back, with a distressed flag cross, one blue stripe, and the words Be Strong and Courageous, Joshua 1:9."
+    },
+    {
+      "name": "The Lord Is My Shield Ornament",
+      "listingTitle": "The Lord Is My Shield Ornament | Personalized Christmas 2026",
+      "image": "images/products/lord-is-my-shield-ornament.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Faith",
+      "price": 19.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Round cream ornament with a navy shield, a gold cross, and the words The Lord Is My Shield, 2026."
+    },
+    {
+      "name": "Home Base Ornament",
+      "listingTitle": "Home Base Christmas Ornament | Personalized Police Family 2026",
+      "image": "images/products/home-base-ornament.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Family",
+      "price": 19.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Round cream ornament with a winged shield, a gold cross, one blue stripe, and the words Home Base, 2026."
+    },
+    {
+      "name": "He Will Cover You Sherpa Throw",
+      "listingTitle": "He Will Cover You Blanket | Psalm 91 Sherpa Throw",
+      "image": "images/products/psalm-91-sherpa.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Faith",
+      "price": 59.99,
+      "width": 900,
+      "height": 900,
+      "alt": "White sherpa throw printed with a winged shield, a gold cross, one blue stripe, and the words He Will Cover You, Psalm 91:4."
+    },
+    {
+      "name": "Hold the Line Ornament",
+      "listingTitle": "Hold the Line Ornament, Personalized Spartan Christmas 2026, Police Family Name Gift",
+      "image": "images/products/hold-the-line-ornament.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Patriotic",
+      "price": 19.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Round black ornament with a Spartan helmet, a tattered flag with one blue stripe, and the words Hold the Line, 2026."
+    },
+    {
+      "name": "Custom Faith Tee",
+      "listingTitle": "Custom Christian Shirt, Personalized Faith Design Tee, Police Family or Verse Gift, Proof Before Print",
+      "image": "images/products/custom-faith-tee.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Family",
+      "price": 29.99,
+      "width": 900,
+      "height": 900,
+      "alt": "White tee with a thin shield outline, a gold cross, and the sample words The Parker Family."
+    },
+    {
+      "name": "He Will Cover You Hoodie",
+      "listingTitle": "He Will Cover You Psalm 91:4 Hoodie, Front and Back Pullover, Police Blue Line Flag Cross, Be Strong and Courageous Gift",
+      "image": "images/products/he-will-cover-you-hoodie.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Back the Blue",
+      "price": 48.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Black pullover hoodie seen from the back, with a distressed flag cross, one blue stripe, and the words Be Strong and Courageous, Joshua 1:9."
+    },
+    {
+      "name": "He Will Cover You Fleece Throw",
+      "listingTitle": "He Will Cover You Blanket | Psalm 91 Fleece Throw",
+      "image": "images/products/psalm-91-fleece.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Faith",
+      "price": 49.99,
+      "width": 900,
+      "height": 900,
+      "alt": "White fleece throw printed with a winged shield, a gold cross, one blue stripe, and the words He Will Cover You, Psalm 91:4."
+    },
+    {
+      "name": "Personalized Memorial Tee",
+      "listingTitle": "Personalized Police Memorial Shirt, Custom Fallen Officer Tee, Deputy Sheriff End of Watch Shirt, In Memory Of Gift, Blue Line Flag Cross",
+      "image": "images/products/memorial-tee.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Back the Blue",
+      "price": 29.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Black tee laid flat with a distressed flag, a blue stripe, a sample star, the name John Miller, and an end-of-watch date."
+    },
+    {
+      "name": "He Will Cover You Sweatshirt",
+      "listingTitle": "He Will Cover You Psalm 91:4 Crewneck Sweatshirt, Front and Back, Police Blue Line Flag Cross, Be Strong and Courageous Gift",
+      "image": "images/products/he-will-cover-you-sweatshirt.jpg",
+      "etsyUrl": "https://shieldoffaithdesign.etsy.com",
+      "category": "Patriotic",
+      "price": 43.99,
+      "width": 900,
+      "height": 900,
+      "alt": "Black crewneck sweatshirt seen from the back, with a distressed flag cross, one blue stripe, and the words Be Strong and Courageous, Joshua 1:9."
+    }
+  ]
+}
