@@ -188,6 +188,19 @@ describe("Printify mapping", () => {
     assert.equal(product.variants[0].price, 2999);
     assert.equal(product.variants[0].cost, undefined);
     assert.equal(JSON.stringify(product).includes("1400"), false);
+    const colors = product.options.find((option) => option.type === "color");
+    assert.deepEqual(colors.values.map((value) => value.title), ["Black"]);
+  });
+
+  it("hides a color that has no priced variant", () => {
+    const raw = samplePrintifyProduct();
+    raw.options[0].values.push({ id: 99, title: "Purple", colors: ["#800080"] });
+    const { catalog } = catalogFromPrintify([raw], { shopId: "1" });
+    const colors = catalog.products[0].options.find((option) => option.type === "color");
+    assert.deepEqual(
+      colors.values.map((value) => value.title),
+      ["Black"]
+    );
   });
 
   it("drops unpublished products, banned phrases, and products with no mockup", () => {
