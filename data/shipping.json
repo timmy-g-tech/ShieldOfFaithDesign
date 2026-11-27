@@ -1,0 +1,9 @@
+{
+  "strategy": "printify-standard-then-flat-rate",
+  "currency": "usd",
+  "shippingMethod": 1,
+  "shippingMethodName": "standard",
+  "flatRateCents": null,
+  "flatRateLabel": "Shipping",
+  "documentation": "Checkout calls Printify POST /v1/shops/{shop_id}/orders/shipping.json and charges the integer standard rate, in cents. flatRateCents is used only when that call cannot be made. null means there is no flat rate, so checkout will not invent a shipping price. Set flatRateCents to a whole number of cents only if Timothy chooses a fallback rate."
+}

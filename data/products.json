@@ -3,7 +3,7 @@
   "fetchedOn": "2026-11-23",
   "source": "Public shop RSS at https://www.etsy.com/shop/ShieldOfFaithDesign/rss. The shop HTML page returned HTTP 403 from Etsy bot protection, so titles, prices, and photos were taken from that RSS feed and saved locally.",
   "heading": "From the shop",
-  "note": "Current Etsy listings. Every item opens the shop, where you check out.",
+  "note": "These are the shop's current listings. Open an item for details. Listings without a size or color here can be bought on Etsy.",
   "products": [
     {
       "name": "He Will Cover You Tee",

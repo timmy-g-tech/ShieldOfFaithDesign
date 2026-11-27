@@ -2,13 +2,13 @@
   "name": "Shield of Faith Design",
   "shopUrl": "https://shieldoffaithdesign.etsy.com",
   "siteUrl": "",
-  "description": "Stickers, shirts, mugs, and gifts for faith, family, and freedom. A small family shop. Printed on demand and sold on Etsy.",
+  "description": "Stickers, shirts, mugs, and gifts for faith, family, and freedom. A small family shop. Printed on demand. Also on Etsy.",
   "headline": ["Faith, family,", "and freedom."],
-  "heroText": "Original stickers, shirts, mugs, and gifts from a small family shop. Every piece is printed when you order it, and checkout stays on Etsy.",
+  "heroText": "Original stickers, shirts, mugs, and gifts from a small family shop. Every piece is printed when you order it. The same designs are also on Etsy.",
   "trust": [
     "Printed on demand",
     "Shipped by our print partner",
-    "Orders and returns on Etsy"
+    "Also on Etsy"
   ],
   "socialNote": "Replace each url with the shop profile. These point at the platform home pages until real profiles are added.",
   "social": [
@@ -46,7 +46,7 @@
     "paragraphs": [
       "Shield of Faith Design is a small family-run shop. We make original artwork about faith, family, and freedom — the things we want on our own shirts, mugs, and walls.",
       "We draw our own designs. We do not copy official badges, patches, seals, or agency logos.",
-      "You order on Etsy. The piece is printed on demand and shipped by our print partner. Orders and returns are handled through Etsy."
+      "You can check out on this site. The same designs are also on Etsy. The piece is printed on demand and shipped by our print partner."
     ],
     "facts": [
       {
@@ -58,8 +58,8 @@
         "text": "Made after you order, then shipped by our print partner."
       },
       {
-        "title": "Sold on Etsy",
-        "text": "Checkout, messages, and returns stay on Etsy."
+        "title": "Also on Etsy",
+        "text": "The same designs are on Etsy. Message the shop there if you need help."
       }
     ]
   },
@@ -70,7 +70,7 @@
     },
     {
       "question": "How do orders and returns work?",
-      "answer": "Orders and returns are handled through Etsy. Add what you want from the shop, check out there, and use Etsy messages if you need help. If something arrives damaged or misprinted, message the shop on Etsy and we will make it right. Because each piece is made to order, we cannot accept a return for a size change or a change of mind."
+      "answer": "You can check out on this site. The same designs are also on Etsy. If something arrives damaged or misprinted, message the shop on Etsy and we will make it right. Because each piece is made to order, we cannot accept a return for a size change or a change of mind."
     },
     {
       "question": "Can you print an official badge, patch, or seal?",

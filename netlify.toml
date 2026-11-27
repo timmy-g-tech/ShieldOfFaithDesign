@@ -1,9 +1,27 @@
 [build]
-  command = "node scripts/build.js"
+  command = "node scripts/sync-catalog.js && node scripts/build.js"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+  included_files = ["data/*.json"]
+
+[functions."sync-catalog"]
+  schedule = "0 11 * * *"
+
+[[redirects]]
+  from = "/api/checkout"
+  to = "/.netlify/functions/create-checkout"
+  status = 200
+
+[[redirects]]
+  from = "/api/stripe-webhook"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200
 
 [[headers]]
   for = "/*"
@@ -27,3 +45,8 @@
   for = "/*.css"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Cache-Control = "no-store"
