@@ -124,4 +124,8 @@ Live Stripe keys and `PRINTIFY_AUTO_SEND=true` charge real cards and send real p
 
 ## Netlify
 
-The repository was not connected to Netlify when this work started. A deploy preview appears only after Netlify is linked to the GitHub repository. This change does not publish a production site.
+The GitHub repository is connected to a Netlify site. Production deploys the `main` branch. Pull requests get a deploy preview. `main` still only has the initial README, so a production deploy of that branch fails until this work is merged. Do not merge it yet. This pull request does not publish a production site.
+
+- Build command: `node scripts/sync-catalog.js && node scripts/build.js`
+- Publish directory: `dist`
+- Functions directory: `netlify/functions`
